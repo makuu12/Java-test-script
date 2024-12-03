@@ -7,7 +7,7 @@ public class sd {
 
     @Test
     void Setup (){
-        //https://googlechromelabs.github.io/chrome-for-testing/
+        //ref for chromedriver: https://googlechromelabs.github.io/chrome-for-testing/
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/chromedriver.exe");
